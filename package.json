@@ -1,0 +1,23 @@
+{
+  "name": "fsm-toolkit",
+  "version": "0.0.1",
+  "description": "Toolkit for finite state machines (FSM)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nyakto/fsm-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyakto/fsm-toolkit/issues"
+  },
+  "keywords": [
+    "FSM",
+    "DFA",
+    "NFA"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stanislav Yashenkov <vampire@realtymag.ru>",
+  "license": "MIT"
+}
