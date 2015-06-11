@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Toolkit for finite state machines (FSM)",
   "main": "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/nyakto/fsm-toolkit.git"
