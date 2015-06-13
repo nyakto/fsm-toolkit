@@ -1,4 +1,5 @@
 var DFA = require('./lib/dfa');
+var NFA = require('./lib/nfa');
 
 module.exports = {
     /**
@@ -6,5 +7,12 @@ module.exports = {
      */
     createDFA: function () {
         return new DFA();
+    },
+
+    /**
+     * @returns {NFA}
+     */
+    createNFA: function () {
+        return new NFA();
     }
 };
